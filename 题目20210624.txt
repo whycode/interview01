@@ -1,0 +1,71 @@
+参考网址：https://blog.csdn.net/A_Kaka/article/details/106839843?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-4&spm=1001.2101.3001.4242
+
+
+Python 自动化测试面试题目汇总
+
+1、super 是干嘛用的？在 Python2 和 Python3 使用，有什么区别？为什么要使用 super？请举例说明。
+
+2、阅读以下代码，推导最后结果：
+
+def add(n, i):
+ return n+i
+ 
+def test():
+ for i in range(4):
+ yield i
+ 
+g = test()
+ 
+for n in [1, 10, 5]:
+    g = (add(n, i) for i in g)
+ 
+print(list(g)) # 结果是 [15, 16, 17, 18] 复制代码
+————————————————
+版权声明：本文为CSDN博主「A_Kaka」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/A_Kaka/article/details/106839843
+
+
+
+3、快速编写前端 HTML、JavaScript、Vue 代码。
+
+
+4、4、L = [1, 2, 3, 11, 2, 5, 3, 2, 5, 3]，用一行代码得出 [11, 1, 2, 3, 5]
+
+5、L = [1, 2, 3, 4, 5]，L[10:]的结果是？
+
+
+6、L = [1, 2, 3, 5, 6]，如何得出 '12356'？
+
+
+
+参考网址：https://blog.csdn.net/weixin_33232550/article/details/113966580?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-0&spm=1001.2101.3001.4242
+
+
+
+https://blog.csdn.net/ruoruodetouzizhe/article/details/83870066?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-16.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-16.control
+
+
+https://xianjie0318.blog.csdn.net/article/details/80579033?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-17.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-17.control
+
+
+
+https://blog.csdn.net/dream_back/article/details/105041647
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
